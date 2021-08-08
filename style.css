@@ -10,7 +10,7 @@ background-color: #FF9A4B;
 }
 
 .social i{
-  display: inline-block;
+  display: block;
   margin-left: 20px;
 }
 main{
@@ -70,19 +70,25 @@ footer{
   background-color: #aaa;
 }
 
-@media screen and (max-width: 425px){
+@media screen and (max-width: 768px){
   header{
     width: 100%;
   }
 
   .main-img1{
-    width: 50%;
+    width: 90%;
+    margin-top:50px ;
+    margin-bottom: 20px;
   }
   
   .main-img2{
-    width: 50%;
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
   .main-img3{
-    width: 50px;
+    width: 90px;
+    margin-top:20px;
+    margin-bottom: 50px;
   }
 }
