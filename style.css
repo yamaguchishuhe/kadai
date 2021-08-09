@@ -14,13 +14,13 @@ background-color: #FF9A4B;
   margin-left: 20px;
 }
 main{
-  width: 100%;
+  width: 960px;
   margin: 50px auto;
   display:flex;
 }
 
 .main-box{
-  width: 100%;
+  width: 300px;
   margin-right: 30px;
   padding: 10px;
   position: relative;
@@ -75,6 +75,14 @@ footer{
     width: 100%;
   }
 
+  main{
+    width: 100%;
+    display: block;
+  }
+
+  .main-box{
+    width: 100%;
+  }
   .main-img1{
     width: 90%;
     margin-top:50px ;
