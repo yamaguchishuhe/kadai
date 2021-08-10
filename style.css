@@ -81,7 +81,8 @@ footer{
   }
 
   .main-box{
-    width: 100%;
+    width: 90%;
+    margin:20px;
   }
   .main-img1{
     width: 90%;
